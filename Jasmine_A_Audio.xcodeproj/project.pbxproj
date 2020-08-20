@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685E8EB624EC345A0065C7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E8EB524EC345A0065C7F9 /* AppDelegate.swift */; };
+		685E8EB824EC345A0065C7F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E8EB724EC345A0065C7F9 /* SceneDelegate.swift */; };
+		685E8EBA24EC345A0065C7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E8EB924EC345A0065C7F9 /* ViewController.swift */; };
+		685E8EBD24EC345A0065C7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685E8EBB24EC345A0065C7F9 /* Main.storyboard */; };
+		685E8EBF24EC345C0065C7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685E8EBE24EC345C0065C7F9 /* Assets.xcassets */; };
+		685E8EC224EC345C0065C7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685E8EC024EC345C0065C7F9 /* LaunchScreen.storyboard */; };
+		685E8ECD24EC345C0065C7F9 /* Jasmine_A_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E8ECC24EC345C0065C7F9 /* Jasmine_A_AudioTests.swift */; };
+		685E8ED824EC345C0065C7F9 /* Jasmine_A_AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E8ED724EC345C0065C7F9 /* Jasmine_A_AudioUITests.swift */; };
+		685E8EE624EC36FC0065C7F9 /* Pug-puppy-standing-in-profile-on-a-white-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685E8EE524EC36FC0065C7F9 /* Pug-puppy-standing-in-profile-on-a-white-background.jpg */; };
+		685E8EE824EC3AF50065C7F9 /* puggy.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 685E8EE724EC3AF50065C7F9 /* puggy.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685E8EC924EC345C0065C7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685E8EAA24EC345A0065C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685E8EB124EC345A0065C7F9;
+			remoteInfo = Jasmine_A_Audio;
+		};
+		685E8ED424EC345C0065C7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685E8EAA24EC345A0065C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685E8EB124EC345A0065C7F9;
+			remoteInfo = Jasmine_A_Audio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		685E8EB224EC345A0065C7F9 /* Jasmine_A_Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jasmine_A_Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E8EB524EC345A0065C7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		685E8EB724EC345A0065C7F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		685E8EB924EC345A0065C7F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		685E8EBC24EC345A0065C7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685E8EBE24EC345C0065C7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685E8EC124EC345C0065C7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685E8EC324EC345C0065C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685E8EC824EC345C0065C7F9 /* Jasmine_A_AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_AudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E8ECC24EC345C0065C7F9 /* Jasmine_A_AudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_AudioTests.swift; sourceTree = "<group>"; };
+		685E8ECE24EC345C0065C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685E8ED324EC345C0065C7F9 /* Jasmine_A_AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_AudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E8ED724EC345C0065C7F9 /* Jasmine_A_AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_AudioUITests.swift; sourceTree = "<group>"; };
+		685E8ED924EC345C0065C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685E8EE524EC36FC0065C7F9 /* Pug-puppy-standing-in-profile-on-a-white-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pug-puppy-standing-in-profile-on-a-white-background.jpg"; sourceTree = "<group>"; };
+		685E8EE724EC3AF50065C7F9 /* puggy.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = puggy.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685E8EAF24EC345A0065C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8EC524EC345C0065C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8ED024EC345C0065C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685E8EA924EC345A0065C7F9 = {
+			isa = PBXGroup;
+			children = (
+				685E8EB424EC345A0065C7F9 /* Jasmine_A_Audio */,
+				685E8ECB24EC345C0065C7F9 /* Jasmine_A_AudioTests */,
+				685E8ED624EC345C0065C7F9 /* Jasmine_A_AudioUITests */,
+				685E8EB324EC345A0065C7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685E8EB324EC345A0065C7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685E8EB224EC345A0065C7F9 /* Jasmine_A_Audio.app */,
+				685E8EC824EC345C0065C7F9 /* Jasmine_A_AudioTests.xctest */,
+				685E8ED324EC345C0065C7F9 /* Jasmine_A_AudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685E8EB424EC345A0065C7F9 /* Jasmine_A_Audio */ = {
+			isa = PBXGroup;
+			children = (
+				685E8EB524EC345A0065C7F9 /* AppDelegate.swift */,
+				685E8EE524EC36FC0065C7F9 /* Pug-puppy-standing-in-profile-on-a-white-background.jpg */,
+				685E8EB724EC345A0065C7F9 /* SceneDelegate.swift */,
+				685E8EB924EC345A0065C7F9 /* ViewController.swift */,
+				685E8EBB24EC345A0065C7F9 /* Main.storyboard */,
+				685E8EE724EC3AF50065C7F9 /* puggy.aiff */,
+				685E8EBE24EC345C0065C7F9 /* Assets.xcassets */,
+				685E8EC024EC345C0065C7F9 /* LaunchScreen.storyboard */,
+				685E8EC324EC345C0065C7F9 /* Info.plist */,
+			);
+			path = Jasmine_A_Audio;
+			sourceTree = "<group>";
+		};
+		685E8ECB24EC345C0065C7F9 /* Jasmine_A_AudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				685E8ECC24EC345C0065C7F9 /* Jasmine_A_AudioTests.swift */,
+				685E8ECE24EC345C0065C7F9 /* Info.plist */,
+			);
+			path = Jasmine_A_AudioTests;
+			sourceTree = "<group>";
+		};
+		685E8ED624EC345C0065C7F9 /* Jasmine_A_AudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685E8ED724EC345C0065C7F9 /* Jasmine_A_AudioUITests.swift */,
+				685E8ED924EC345C0065C7F9 /* Info.plist */,
+			);
+			path = Jasmine_A_AudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685E8EB124EC345A0065C7F9 /* Jasmine_A_Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E8EDC24EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_Audio" */;
+			buildPhases = (
+				685E8EAE24EC345A0065C7F9 /* Sources */,
+				685E8EAF24EC345A0065C7F9 /* Frameworks */,
+				685E8EB024EC345A0065C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jasmine_A_Audio;
+			productName = Jasmine_A_Audio;
+			productReference = 685E8EB224EC345A0065C7F9 /* Jasmine_A_Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685E8EC724EC345C0065C7F9 /* Jasmine_A_AudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E8EDF24EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_AudioTests" */;
+			buildPhases = (
+				685E8EC424EC345C0065C7F9 /* Sources */,
+				685E8EC524EC345C0065C7F9 /* Frameworks */,
+				685E8EC624EC345C0065C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685E8ECA24EC345C0065C7F9 /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_AudioTests;
+			productName = Jasmine_A_AudioTests;
+			productReference = 685E8EC824EC345C0065C7F9 /* Jasmine_A_AudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685E8ED224EC345C0065C7F9 /* Jasmine_A_AudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E8EE224EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_AudioUITests" */;
+			buildPhases = (
+				685E8ECF24EC345C0065C7F9 /* Sources */,
+				685E8ED024EC345C0065C7F9 /* Frameworks */,
+				685E8ED124EC345C0065C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685E8ED524EC345C0065C7F9 /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_AudioUITests;
+			productName = Jasmine_A_AudioUITests;
+			productReference = 685E8ED324EC345C0065C7F9 /* Jasmine_A_AudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685E8EAA24EC345A0065C7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jasmine Alarcon";
+				TargetAttributes = {
+					685E8EB124EC345A0065C7F9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					685E8EC724EC345C0065C7F9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 685E8EB124EC345A0065C7F9;
+					};
+					685E8ED224EC345C0065C7F9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 685E8EB124EC345A0065C7F9;
+					};
+				};
+			};
+			buildConfigurationList = 685E8EAD24EC345A0065C7F9 /* Build configuration list for PBXProject "Jasmine_A_Audio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685E8EA924EC345A0065C7F9;
+			productRefGroup = 685E8EB324EC345A0065C7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685E8EB124EC345A0065C7F9 /* Jasmine_A_Audio */,
+				685E8EC724EC345C0065C7F9 /* Jasmine_A_AudioTests */,
+				685E8ED224EC345C0065C7F9 /* Jasmine_A_AudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685E8EB024EC345A0065C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E8EE824EC3AF50065C7F9 /* puggy.aiff in Resources */,
+				685E8EC224EC345C0065C7F9 /* LaunchScreen.storyboard in Resources */,
+				685E8EBF24EC345C0065C7F9 /* Assets.xcassets in Resources */,
+				685E8EBD24EC345A0065C7F9 /* Main.storyboard in Resources */,
+				685E8EE624EC36FC0065C7F9 /* Pug-puppy-standing-in-profile-on-a-white-background.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8EC624EC345C0065C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8ED124EC345C0065C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685E8EAE24EC345A0065C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E8EBA24EC345A0065C7F9 /* ViewController.swift in Sources */,
+				685E8EB624EC345A0065C7F9 /* AppDelegate.swift in Sources */,
+				685E8EB824EC345A0065C7F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8EC424EC345C0065C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E8ECD24EC345C0065C7F9 /* Jasmine_A_AudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E8ECF24EC345C0065C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E8ED824EC345C0065C7F9 /* Jasmine_A_AudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685E8ECA24EC345C0065C7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685E8EB124EC345A0065C7F9 /* Jasmine_A_Audio */;
+			targetProxy = 685E8EC924EC345C0065C7F9 /* PBXContainerItemProxy */;
+		};
+		685E8ED524EC345C0065C7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685E8EB124EC345A0065C7F9 /* Jasmine_A_Audio */;
+			targetProxy = 685E8ED424EC345C0065C7F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685E8EBB24EC345A0065C7F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685E8EBC24EC345A0065C7F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685E8EC024EC345C0065C7F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685E8EC124EC345C0065C7F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685E8EDA24EC345C0065C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		685E8EDB24EC345C0065C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685E8EDD24EC345C0065C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_Audio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685E8EDE24EC345C0065C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_Audio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		685E8EE024EC345C0065C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_AudioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_Audio.app/Jasmine_A_Audio";
+			};
+			name = Debug;
+		};
+		685E8EE124EC345C0065C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_AudioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_Audio.app/Jasmine_A_Audio";
+			};
+			name = Release;
+		};
+		685E8EE324EC345C0065C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_AudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_Audio;
+			};
+			name = Debug;
+		};
+		685E8EE424EC345C0065C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_AudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_Audio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685E8EAD24EC345A0065C7F9 /* Build configuration list for PBXProject "Jasmine_A_Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E8EDA24EC345C0065C7F9 /* Debug */,
+				685E8EDB24EC345C0065C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E8EDC24EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E8EDD24EC345C0065C7F9 /* Debug */,
+				685E8EDE24EC345C0065C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E8EDF24EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_AudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E8EE024EC345C0065C7F9 /* Debug */,
+				685E8EE124EC345C0065C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E8EE224EC345C0065C7F9 /* Build configuration list for PBXNativeTarget "Jasmine_A_AudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E8EE324EC345C0065C7F9 /* Debug */,
+				685E8EE424EC345C0065C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685E8EAA24EC345A0065C7F9 /* Project object */;
+}
